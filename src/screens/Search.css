@@ -1,0 +1,79 @@
+.searching {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#search{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: auto 10px;
+}
+label{
+    color: #306075;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 18px;
+    margin-left: 5px;
+}
+.labelContainer{
+    margin-left: -100px;
+}
+.searchBy{
+    color: #306075;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.searchButton {
+    background-color: #306075;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: gray;
+}
+.loaded{
+   color: #306075; 
+   font-size: 50px;
+   margin-bottom: 20px;
+   height: 550px;
+   width: 90%;
+   margin: auto;
+   background-size: cover;
+   background-image: url("../../public/images/beachCocktails2.png");
+}
+#searchImg{
+    position: absolute;
+    height: 680px;
+    width: 90%;
+    left: 68px;
+    top: 1130px;
+    opacity: 50%;
+}
+.loaded:hover{
+    color: gray;
+}
+.searchTitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: teal;
+    text-align: left;
+    margin: 0% 5%;
+    font-weight: 500;
+}

@@ -1,0 +1,85 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 180vh;
+    background-image: url("../screens/beach.jpg"); 
+    background-size:100% auto;
+    margin-bottom: 10px;
+}
+
+.register {
+    max-width: 800px; 
+    margin: 100px auto;
+    background-color: teal;
+    padding: 10px;
+    box-shadow: 0 0 10px lightskyblue;
+    text-align: center;
+    opacity: 70%;
+}
+
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+    color: rgb(23, 23, 23);
+}
+
+.signupTitle {
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.name-inputs input{ 
+    width: 95%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.button {
+    background-color: #306075;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.name-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    padding-right: 3px;
+    width: 50%;
+    text-align: center;
+}
+
+.input-group2 input[type="text"]{
+    width: 550px;
+    height: 40px;
+    text-align: center;
+}
+
+.input-group label {
+    color: #fff;
+}
+
+.login:hover {
+    color: beige;
+}

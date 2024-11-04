@@ -1,0 +1,13 @@
+#linkHome{
+    color: #306075;
+}
+#linkHome:hover{
+    color: rgb(0, 150, 150);
+}
+.notFoundMessage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #306075;
+    padding: 30px 10px;
+    text-align: left;
+}

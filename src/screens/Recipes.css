@@ -1,0 +1,33 @@
+.fullRecipe{
+    height: 680px;
+    width: 90%;
+    position: absolute;
+    top: 1130px;
+    background-color: teal;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        "recipeTitle recipeTitle"
+        "recipeImg recipeIngre"
+        "recipeInstr recipeInstr";
+    text-align: left;
+    padding: 30px 40px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(231, 229, 229);
+}
+
+.recipeTitle{
+    grid-area: recipeTitle;
+}
+.recipeImg{
+    grid-area: recipeImg;
+}
+.recipeIngre{
+    grid-area: recipeIngre;
+    
+}
+.recipeInstr{
+    grid-area: recipeInstr;
+}

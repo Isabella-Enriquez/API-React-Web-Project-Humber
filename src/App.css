@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  padding: 10px;
+  /* background-color: rgb(191, 232, 232); */
+  background-color: rgb(222, 242, 242);
+  padding: 0;
+}
+#splash{
+  width:100%;
+  padding: 5px;
+  height: 250px;
+  background-size: cover;
+  background-color: rgb(242, 242, 242);
+  background-repeat: no-repeat;
+  background-image: url('../public/images/cocktails4.jpg');
+  background-position-y: center;
+}
+.head-title{
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  width: 69%;
+}
+.drink101 {
+  font-size: 500%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 40px;
+  /* color:rgb(63, 63, 63); */
+  color: rgb(2, 148, 148);
+  
+  text-shadow: 3px 3px 4px rgb(128, 128, 128);
+  
+}
+.drink {
+  font-size: 200% ;
+  text-shadow: 2px 2px 4px teal;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(93, 93, 93);
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+}
+nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+nav a{
+  text-decoration: none;
+  color: gray;
+  font-size: xx-large;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+nav a:hover{
+  color: teal;
+}
+footer p{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-top: 2px solid gray;
+  color: gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
